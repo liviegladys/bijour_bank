@@ -26,8 +26,8 @@
       </div>
       <form action="#" id="">
         <select name="operation" id="operation">
-          <option valeur="credit">+</option>
-          <option valeur="debit">-</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
         </select>
         <input
           type="text"
@@ -41,14 +41,14 @@
           id="montant"
           placeholder="montant"
         />
-        <button type="submit">🥊</button>
+        <button id="click" type="submit">🥊</button>
       </form>
     </section>
     <div class="wrapper">
       <div class="row">
         <div class="column">
           <h4 class="txt-color-gazoil">crédit</h4>
-          <ul>
+          <ul id="listeCredit">
             <li>
               <span class="intitule">salaire</span>
               <span class="montant txt-color-gazoil">1520 €</span>
@@ -57,7 +57,7 @@
         </div>
         <div class="column">
           <h4 class="txt-color-red">débit</h4>
-          <ul>
+          <ul id="listeDebit">
             <li>
               <span class="intitule">achat PS4</span>
               <span class="montant txt-color-red">499.99 €</span>
